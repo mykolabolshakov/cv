@@ -1,0 +1,13 @@
+uuid: 26432645-0e2c-4d8a-92b6-74b6b834f2e3
+langcode: uk
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: jonvgt3CkUM2eMLTFwWfHileWWDC4YtXCuIlCahTk_I
+id: personal
+label: 'Персональна контактна форма'
+recipients: {  }
+reply: ''
+weight: 0
+message: 'Ваше повідомлення було відправлене.'
+redirect: ''

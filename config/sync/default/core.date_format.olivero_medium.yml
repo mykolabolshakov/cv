@@ -1,0 +1,13 @@
+uuid: 07c22153-2698-4e1d-aee3-082395a9f2a6
+langcode: uk
+status: true
+dependencies:
+  enforced:
+    theme:
+      - olivero
+_core:
+  default_config_hash: Mt6cmxUbDZ9XxD6p25WQ8tj3_JcX8ylfcddwZc8gcAE
+id: olivero_medium
+label: 'Olivero Медіум'
+locked: false
+pattern: 'j  F,  Y'

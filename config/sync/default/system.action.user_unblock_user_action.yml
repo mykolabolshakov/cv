@@ -1,0 +1,13 @@
+uuid: 2cb0f4b2-a0b2-4488-a61d-dfff36e12202
+langcode: uk
+status: true
+dependencies:
+  module:
+    - user
+_core:
+  default_config_hash: SPsUXsR3Rc8d1y3gewzaAKWa1ncea_ywXX3f7LTn7k0
+id: user_unblock_user_action
+label: 'Розблокувати вибраних користувачів'
+type: user
+plugin: user_unblock_user_action
+configuration: {  }

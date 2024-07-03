@@ -1,0 +1,22 @@
+uuid: 824ceff1-eb3f-4958-9f5a-6c1c227be082
+langcode: uk
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - radix
+_core:
+  default_config_hash: 5uyatkpDi2rnTlLwu5_1NphWjK8EQgNrPQzsh5QTbiM
+id: radix_content
+theme: radix
+region: content
+weight: -3
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Основний вміст сторінки'
+  label_display: '0'
+  provider: system
+visibility: {  }

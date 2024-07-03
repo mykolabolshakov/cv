@@ -1,0 +1,22 @@
+uuid: e59f4373-cca8-460c-a3d6-4a5c2f100f3a
+langcode: uk
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - mbcv_radix
+_core:
+  default_config_hash: fSC9pgqRmumwZQE2R2sZARcgmgAIl16J0P6RW9SBO5A
+id: mbcv_radix_breadcrumbs
+theme: mbcv_radix
+region: content
+weight: -1
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: 'Рядки навіґації'
+  label_display: '0'
+  provider: system
+visibility: {  }

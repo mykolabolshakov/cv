@@ -1,0 +1,22 @@
+uuid: ee321e26-a059-48c5-ae53-44baefab1350
+langcode: uk
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - mbcv_radix
+_core:
+  default_config_hash: 5uyatkpDi2rnTlLwu5_1NphWjK8EQgNrPQzsh5QTbiM
+id: mbcv_radix_content
+theme: mbcv_radix
+region: content
+weight: -2
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Основний вміст сторінки'
+  label_display: '0'
+  provider: system
+visibility: {  }

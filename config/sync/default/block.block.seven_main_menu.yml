@@ -1,0 +1,27 @@
+uuid: 538be85f-bb30-423a-b550-8a1c682266ac
+langcode: uk
+status: false
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - seven
+_core:
+  default_config_hash: L_6x7mw_op_A3qCl5GhKzxTXyrFbDpsUcWbk8D8iF9A
+id: seven_main_menu
+theme: seven
+region: header
+weight: -5
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Основна навіґація'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 2
+  expand_all_items: true
+visibility: {  }

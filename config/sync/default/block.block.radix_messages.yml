@@ -1,0 +1,22 @@
+uuid: f2fa3c1b-82ea-4f5f-bf1a-3b991ef00aa7
+langcode: uk
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - radix
+_core:
+  default_config_hash: RT2HTOyITisAHluwqMu9kkvzxFWhHIq0P6doH2t0qXE
+id: radix_messages
+theme: radix
+region: navbar_branding
+weight: -6
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Повідомлення про стан'
+  label_display: '0'
+  provider: system
+visibility: {  }

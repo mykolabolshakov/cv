@@ -1,0 +1,22 @@
+uuid: e7bc5b99-b656-4e48-bff7-fe337382ada2
+langcode: uk
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - mbcv_radix
+_core:
+  default_config_hash: RT2HTOyITisAHluwqMu9kkvzxFWhHIq0P6doH2t0qXE
+id: mbcv_radix_messages
+theme: mbcv_radix
+region: header
+weight: -5
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Повідомлення про стан'
+  label_display: '0'
+  provider: system
+visibility: {  }

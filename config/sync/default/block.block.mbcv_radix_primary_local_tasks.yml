@@ -1,0 +1,22 @@
+uuid: 508aa92d-61a9-4e36-aae3-9cb084e613b8
+langcode: uk
+status: true
+dependencies:
+  theme:
+    - mbcv_radix
+_core:
+  default_config_hash: 11rQfp--T1m__Zt0oFh-H33GpJ8_p_PxPFZ557_f4gE
+id: mbcv_radix_primary_local_tasks
+theme: mbcv_radix
+region: content
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Основні вкладки'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

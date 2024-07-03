@@ -1,0 +1,23 @@
+uuid: 90d69fbc-27fc-4302-95d5-b36ea7295cce
+langcode: uk
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - mbcv_radix
+_core:
+  default_config_hash: 6hX8AyVL--JzcwS0Bzu3ftqn3OBzjTYCX8DpXgX6a8Y
+id: mbcv_radix_search_form_wide
+theme: mbcv_radix
+region: navbar_right
+weight: -5
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Форма пошуку (широка)'
+  label_display: '0'
+  provider: search
+  page_id: ''
+visibility: {  }

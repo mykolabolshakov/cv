@@ -1,0 +1,20 @@
+uuid: cc092ba7-c743-475d-89a5-b1ca1cc97452
+langcode: uk
+status: true
+dependencies:
+  theme:
+    - radix
+_core:
+  default_config_hash: TDTidV3Dr_u9e0NzkBgbLGn3QTssEJ0EXuV_5WmEZy8
+id: radix_primary_admin_actions
+theme: radix
+region: content
+weight: -6
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Основні адміністративні дії'
+  label_display: '0'
+  provider: core
+visibility: {  }

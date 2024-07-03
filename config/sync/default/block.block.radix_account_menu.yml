@@ -1,0 +1,27 @@
+uuid: 38b6afa6-bc42-401c-a70f-4bcc7d007e7f
+langcode: uk
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - radix
+_core:
+  default_config_hash: YxCUxqolurCTjE9eplCZRsP3NCBmLsvaz4gHOTXpvJA
+id: radix_account_menu
+theme: radix
+region: navbar_branding
+weight: -7
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'Меню облікового запису користувача'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 1
+  expand_all_items: false
+visibility: {  }

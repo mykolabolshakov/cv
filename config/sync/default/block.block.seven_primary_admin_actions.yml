@@ -1,0 +1,20 @@
+uuid: 88320971-aeea-4b97-8006-5dd3a60aed19
+langcode: uk
+status: true
+dependencies:
+  theme:
+    - seven
+_core:
+  default_config_hash: TDTidV3Dr_u9e0NzkBgbLGn3QTssEJ0EXuV_5WmEZy8
+id: seven_primary_admin_actions
+theme: seven
+region: content
+weight: -5
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Основні адміністративні дії'
+  label_display: '0'
+  provider: core
+visibility: {  }

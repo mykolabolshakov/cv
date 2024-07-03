@@ -1,0 +1,25 @@
+uuid: 9e5342a9-fa8f-442b-badc-28faac79dc7d
+langcode: uk
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - radix
+_core:
+  default_config_hash: 2wPaJbLk-ySycMpvVIkY1QwncOFI4fdrmfN_VLAFz4U
+id: radix_site_branding
+theme: radix
+region: header
+weight: -7
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Брендування сайту'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: false
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: ee8d3213-f094-42b5-a98d-826d050fae55
+langcode: uk
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - radix
+_core:
+  default_config_hash: fSC9pgqRmumwZQE2R2sZARcgmgAIl16J0P6RW9SBO5A
+id: radix_breadcrumbs
+theme: radix
+region: navbar_branding
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: 'Рядки навіґації'
+  label_display: '0'
+  provider: system
+visibility: {  }

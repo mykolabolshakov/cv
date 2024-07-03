@@ -1,0 +1,22 @@
+uuid: a1aedce4-737a-4d73-a940-de10e4c0182c
+langcode: uk
+status: false
+dependencies:
+  module:
+    - help
+  theme:
+    - seven
+_core:
+  default_config_hash: YXj1RlUN8T9nj5uXQr1BbsjGXOuk16wiPagrlAEoVXc
+id: seven_help
+theme: seven
+region: header
+weight: -3
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Довідка
+  label_display: '0'
+  provider: help
+visibility: {  }

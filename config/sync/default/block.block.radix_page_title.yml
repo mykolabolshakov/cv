@@ -1,0 +1,20 @@
+uuid: db693d41-b4c9-469c-ad03-b0b7b6c05e41
+langcode: uk
+status: true
+dependencies:
+  theme:
+    - radix
+_core:
+  default_config_hash: 78B1wfGB86rCKrL3PSSkBaZIFhWieprMm9_ro-mJV9g
+id: radix_page_title
+theme: radix
+region: content
+weight: -7
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Заголовок сторінки'
+  label_display: '0'
+  provider: core
+visibility: {  }

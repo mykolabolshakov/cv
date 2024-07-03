@@ -1,0 +1,20 @@
+uuid: 2a887923-ba06-477e-bfd4-c267d7922662
+langcode: uk
+status: true
+dependencies:
+  theme:
+    - mbcv_radix
+_core:
+  default_config_hash: 78B1wfGB86rCKrL3PSSkBaZIFhWieprMm9_ro-mJV9g
+id: mbcv_radix_page_title
+theme: mbcv_radix
+region: content
+weight: -6
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Заголовок сторінки'
+  label_display: '0'
+  provider: core
+visibility: {  }

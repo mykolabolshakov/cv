@@ -1,0 +1,20 @@
+uuid: dbf0da48-d645-41a1-933d-2b42ca5a8f83
+langcode: uk
+status: true
+dependencies:
+  theme:
+    - mbcv_radix
+_core:
+  default_config_hash: TDTidV3Dr_u9e0NzkBgbLGn3QTssEJ0EXuV_5WmEZy8
+id: mbcv_radix_primary_admin_actions
+theme: mbcv_radix
+region: content
+weight: -5
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Основні адміністративні дії'
+  label_display: '0'
+  provider: core
+visibility: {  }

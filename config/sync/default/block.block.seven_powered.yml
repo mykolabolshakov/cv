@@ -1,0 +1,22 @@
+uuid: 8d9ab549-db23-449c-aeb8-5900142d717b
+langcode: uk
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - seven
+_core:
+  default_config_hash: Z9lHRXR4frJwiMFntdE1sE1Tdp1tnzrcxtdgsjqIrec
+id: seven_powered
+theme: seven
+region: header
+weight: -6
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Працює на Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

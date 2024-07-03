@@ -1,0 +1,20 @@
+uuid: b5a29e08-d567-416f-b878-2b41767b8041
+langcode: uk
+status: true
+dependencies:
+  theme:
+    - seven
+_core:
+  default_config_hash: 78B1wfGB86rCKrL3PSSkBaZIFhWieprMm9_ro-mJV9g
+id: seven_page_title
+theme: seven
+region: content
+weight: -6
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Заголовок сторінки'
+  label_display: '0'
+  provider: core
+visibility: {  }

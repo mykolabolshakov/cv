@@ -1,0 +1,22 @@
+uuid: a3213002-4100-4900-a58b-12ddd183b2da
+langcode: uk
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - radix
+_core:
+  default_config_hash: Z9lHRXR4frJwiMFntdE1sE1Tdp1tnzrcxtdgsjqIrec
+id: radix_powered
+theme: radix
+region: navbar_branding
+weight: -7
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Працює на Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

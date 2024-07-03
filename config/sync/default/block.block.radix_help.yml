@@ -1,0 +1,22 @@
+uuid: a13d5a6e-c29c-4b4a-b67c-96177598cd2c
+langcode: uk
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - radix
+_core:
+  default_config_hash: YXj1RlUN8T9nj5uXQr1BbsjGXOuk16wiPagrlAEoVXc
+id: radix_help
+theme: radix
+region: navbar_branding
+weight: -2
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Довідка
+  label_display: '0'
+  provider: help
+visibility: {  }

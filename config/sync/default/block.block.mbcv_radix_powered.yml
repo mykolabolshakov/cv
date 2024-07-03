@@ -1,0 +1,22 @@
+uuid: dc51c7ba-a7a2-4dd4-ab5f-0a3b64be9967
+langcode: uk
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - mbcv_radix
+_core:
+  default_config_hash: Z9lHRXR4frJwiMFntdE1sE1Tdp1tnzrcxtdgsjqIrec
+id: mbcv_radix_powered
+theme: mbcv_radix
+region: footer
+weight: -6
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Працює на Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

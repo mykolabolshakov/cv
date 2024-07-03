@@ -1,0 +1,22 @@
+uuid: 2237fef4-a7d3-48a9-b038-b093f9c36d4d
+langcode: uk
+status: true
+dependencies:
+  theme:
+    - mbcv_radix
+_core:
+  default_config_hash: BEkA4h8ENcg5IFM6pCoyiyiOLRRlcfOXvLIrmP9BcAE
+id: mbcv_radix_secondary_local_tasks
+theme: mbcv_radix
+region: content
+weight: -3
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Другорядні вкладки'
+  label_display: '0'
+  provider: core
+  primary: false
+  secondary: true
+visibility: {  }

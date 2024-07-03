@@ -1,0 +1,22 @@
+uuid: f5fab2a4-8e65-41eb-9f9f-293ba3c36f3a
+langcode: uk
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - mbcv_radix
+_core:
+  default_config_hash: YXj1RlUN8T9nj5uXQr1BbsjGXOuk16wiPagrlAEoVXc
+id: mbcv_radix_help
+theme: mbcv_radix
+region: header
+weight: -4
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Довідка
+  label_display: '0'
+  provider: help
+visibility: {  }

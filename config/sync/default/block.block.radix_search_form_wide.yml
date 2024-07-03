@@ -1,0 +1,23 @@
+uuid: 925a3c6e-3207-4b41-8bcb-cebc0e8ecebb
+langcode: uk
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - radix
+_core:
+  default_config_hash: 6hX8AyVL--JzcwS0Bzu3ftqn3OBzjTYCX8DpXgX6a8Y
+id: radix_search_form_wide
+theme: radix
+region: navbar_branding
+weight: -7
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Форма пошуку (широка)'
+  label_display: '0'
+  provider: search
+  page_id: ''
+visibility: {  }

@@ -1,0 +1,5 @@
+# Schema for the configuration files of the mbcv_radix theme.
+
+mbcv_radix.settings:
+  type: theme_settings
+  label: 'mbcv_radix settings'

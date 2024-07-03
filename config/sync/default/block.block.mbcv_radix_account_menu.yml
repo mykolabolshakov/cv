@@ -1,0 +1,27 @@
+uuid: d3fdf0e9-198c-46b0-9b8e-9986a522df1d
+langcode: uk
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - mbcv_radix
+_core:
+  default_config_hash: YxCUxqolurCTjE9eplCZRsP3NCBmLsvaz4gHOTXpvJA
+id: mbcv_radix_account_menu
+theme: mbcv_radix
+region: navbar_right
+weight: -6
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'Меню облікового запису користувача'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 1
+  expand_all_items: false
+visibility: {  }

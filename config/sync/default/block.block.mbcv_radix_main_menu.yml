@@ -1,0 +1,27 @@
+uuid: 71fa3b0a-9e82-438c-96d7-6015f24a9e1b
+langcode: uk
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - mbcv_radix
+_core:
+  default_config_hash: L_6x7mw_op_A3qCl5GhKzxTXyrFbDpsUcWbk8D8iF9A
+id: mbcv_radix_main_menu
+theme: mbcv_radix
+region: header
+weight: -6
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Основна навіґація'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 2
+  expand_all_items: true
+visibility: {  }

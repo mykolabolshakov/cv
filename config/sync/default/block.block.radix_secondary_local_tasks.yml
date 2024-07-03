@@ -1,0 +1,22 @@
+uuid: b7216613-0a2a-4bde-b333-76a16e3b8aa5
+langcode: uk
+status: true
+dependencies:
+  theme:
+    - radix
+_core:
+  default_config_hash: BEkA4h8ENcg5IFM6pCoyiyiOLRRlcfOXvLIrmP9BcAE
+id: radix_secondary_local_tasks
+theme: radix
+region: content
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Другорядні вкладки'
+  label_display: '0'
+  provider: core
+  primary: false
+  secondary: true
+visibility: {  }

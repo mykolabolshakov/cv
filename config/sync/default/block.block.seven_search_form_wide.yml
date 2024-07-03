@@ -1,0 +1,23 @@
+uuid: fca768db-b924-40b6-858c-327d16c697d6
+langcode: uk
+status: false
+dependencies:
+  module:
+    - search
+  theme:
+    - seven
+_core:
+  default_config_hash: 6hX8AyVL--JzcwS0Bzu3ftqn3OBzjTYCX8DpXgX6a8Y
+id: seven_search_form_wide
+theme: seven
+region: header
+weight: -6
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Форма пошуку (широка)'
+  label_display: '0'
+  provider: search
+  page_id: ''
+visibility: {  }

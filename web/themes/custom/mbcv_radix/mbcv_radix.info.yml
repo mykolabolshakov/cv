@@ -13,6 +13,7 @@ base theme: radix
 regions:
   navbar_branding: Navbar branding
   navbar_left: Navbar left
+  navbar_center: Navbar center
   navbar_right: Navbar right
   header: Header
   content: Content

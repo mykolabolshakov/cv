@@ -4,8 +4,10 @@ status: true
 dependencies:
   config:
     - field.field.node.page.body
+    - field.field.node.page.field_socials
     - node.type.page
   module:
+    - social_media_links_field
     - text
     - user
 _core:
@@ -21,6 +23,15 @@ content:
     settings: {  }
     third_party_settings: {  }
     weight: 100
+    region: content
+  field_socials:
+    type: social_media_links_field_default
+    label: above
+    settings:
+      appearance: {  }
+      link_attributes: {  }
+    third_party_settings: {  }
+    weight: 102
     region: content
   links:
     weight: 101

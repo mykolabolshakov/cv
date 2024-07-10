@@ -1,6 +1,6 @@
 uuid: a1aedce4-737a-4d73-a940-de10e4c0182c
 langcode: uk
-status: false
+status: true
 dependencies:
   module:
     - help

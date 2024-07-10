@@ -1,0 +1,160 @@
+uuid: 4847476b-abe0-403e-8cc5-b04c4dcaf7c6
+langcode: uk
+status: true
+dependencies:
+  module:
+    - advanced_language_selector
+  theme:
+    - mbcv_radix
+id: mbcv_radix_advancedlanguageselectorblock
+theme: mbcv_radix
+region: navbar_left
+weight: -6
+provider: null
+plugin: advanced_language_selector_block
+settings:
+  id: advanced_language_selector_block
+  label: 'Advanced language selector block'
+  label_display: '0'
+  provider: advanced_language_selector
+  look_and_feel:
+    theme: bootstrap_dropdown
+  bootstrap_modal:
+    general:
+      id: ''
+      css: ''
+      text_transformation: default
+      load_external_bootstrap: 0
+      external_bootstrap_library: advanced_language_selector/bootstrap
+    display:
+      selected_item:
+        css: btn-primary
+        show:
+          icons: icons
+          lang_code: lang_code
+          lang_name: 0
+        icon_height: '25'
+        icon_alignment: right
+      items:
+        show:
+          icons: icons
+          lang_code: lang_code
+          lang_name: 0
+        icon_height: '25'
+        icon_alignment: left
+  bootstrap_dropdown:
+    general:
+      id: language-switcher
+      css: language-switcher
+      text_transformation: upper
+      load_external_bootstrap: 0
+      external_bootstrap_library: advanced_language_selector/bootstrap
+    display:
+      selected_item:
+        css: btn-primary
+        show:
+          icons: icons
+          lang_code: lang_code
+          lang_name: 0
+        icon_height: '32'
+        icon_alignment: left
+      items:
+        show:
+          icons: icons
+          lang_code: lang_code
+          lang_name: 0
+        icon_height: '32'
+        icon_alignment: left
+  bootstrap_button_group:
+    general:
+      css: ''
+      text_transformation: default
+      load_external_bootstrap: 0
+      external_bootstrap_library: advanced_language_selector/bootstrap
+    display:
+      items:
+        css: btn-primary
+        show:
+          icons: icons
+          lang_code: lang_code
+          lang_name: 0
+        icon_height: '25'
+        icon_alignment: left
+  bootstrap_offcanvas:
+    general:
+      id: language-switcher-bs-offcanvas
+      position: offcanvas-start
+      css: language-switcher-bs-offcanvas
+      text_transformation: upper
+      load_external_bootstrap: 0
+      external_bootstrap_library: advanced_language_selector/bootstrap
+    display:
+      selected_item:
+        css: btn-primary
+        show:
+          icons: icons
+          lang_code: lang_code
+          lang_name: 0
+        icon_height: '25'
+        icon_alignment: right
+      items:
+        show:
+          icons: icons
+          lang_code: lang_code
+          lang_name: 0
+        icon_height: '25'
+        icon_alignment: left
+  bootstrap_list_group:
+    general:
+      css: ''
+      text_transformation: default
+      load_external_bootstrap: 0
+      external_bootstrap_library: advanced_language_selector/bootstrap
+    display:
+      items:
+        show:
+          icons: icons
+          lang_code: lang_code
+          lang_name: 0
+        icon_height: '25'
+        icon_alignment: left
+  plain_html:
+    general:
+      css: ''
+      uppercase: 1
+    display:
+      icons: 1
+      show:
+        lang_code: lang_code
+        lang_name: 0
+      icon_height: '25'
+      icon_alignment: right
+  bootstrap_navigation:
+    general:
+      orientation: horizontal
+      style: nav-pills
+      css: ''
+      text_transformation: default
+      load_external_bootstrap: 0
+      external_bootstrap_library: advanced_language_selector/bootstrap
+    display:
+      items:
+        show:
+          icons: icons
+          lang_code: lang_code
+          lang_name: 0
+        icon_height: '25'
+        icon_alignment: left
+  plain_html_list:
+    general:
+      css: ''
+      text_transformation: default
+    display:
+      items:
+        show:
+          icons: icons
+          lang_code: lang_code
+          lang_name: 0
+        icon_height: '25'
+        icon_alignment: left
+visibility: {  }

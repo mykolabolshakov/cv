@@ -1,0 +1,165 @@
+uuid: 9e3251dc-e713-4d18-9719-f69676435269
+langcode: uk
+status: true
+dependencies:
+  module:
+    - social_media_links
+  theme:
+    - mbcv_radix
+id: mbcv_radix_socialmedialinks
+theme: mbcv_radix
+region: navbar_center
+weight: -7
+provider: null
+plugin: social_media_links_block
+settings:
+  id: social_media_links_block
+  label: 'Social Media Links'
+  label_display: '0'
+  provider: social_media_links
+  platforms:
+    twitter:
+      value: ''
+      description: ''
+      weight: '-10'
+    gitlab:
+      value: ''
+      description: ''
+      weight: '-9'
+    linkedin:
+      value: mbcv
+      description: ''
+      weight: '-8'
+    flickr:
+      value: ''
+      description: ''
+      weight: '-7'
+    behance:
+      value: ''
+      description: ''
+      weight: '-6'
+    glassdoor:
+      value: ''
+      description: ''
+      weight: '-5'
+    bitbucket:
+      value: ''
+      description: ''
+      weight: '-4'
+    instagram:
+      value: ''
+      description: ''
+      weight: '-3'
+    rss:
+      value: ''
+      description: ''
+      weight: '-2'
+    tiktok:
+      value: ''
+      description: ''
+      weight: '-1'
+    website:
+      value: ''
+      description: ''
+      weight: '0'
+    github:
+      value: mbcv
+      description: ''
+      weight: '1'
+    amazon:
+      value: ''
+      description: ''
+      weight: '2'
+    goodreads:
+      value: ''
+      description: ''
+      weight: '3'
+    contact:
+      value: ''
+      description: ''
+      weight: '4'
+    email:
+      value: mbcv@gmail.com
+      description: ''
+      weight: '5'
+    facebook:
+      value: mbcv
+      description: ''
+      weight: '6'
+    vimeo:
+      value: ''
+      description: ''
+      weight: '7'
+    telegram:
+      value: mbcv
+      description: ''
+      weight: '8'
+    youtube:
+      value: ''
+      description: ''
+      weight: '9'
+    xing:
+      value: ''
+      description: ''
+      weight: '10'
+    whatsapp:
+      value: ''
+      description: ''
+      weight: '11'
+    mastodon:
+      value: ''
+      description: ''
+      weight: '12'
+    youtube_channel:
+      value: ''
+      description: ''
+      weight: '13'
+    googleplus:
+      value: ''
+      description: ''
+      weight: '14'
+    slideshare:
+      value: ''
+      description: ''
+      weight: '15'
+    drupal:
+      value: mbcv
+      description: ''
+      weight: '16'
+    pinterest:
+      value: ''
+      description: ''
+      weight: '17'
+    meetup:
+      value: ''
+      description: ''
+      weight: '18'
+    tumblr:
+      value: ''
+      description: ''
+      weight: '19'
+    googleplay:
+      value: ''
+      description: ''
+      weight: '20'
+    vkontakte:
+      value: ''
+      description: ''
+      weight: '21'
+    patreon:
+      value: ''
+      description: ''
+      weight: '22'
+  appearance:
+    orientation: h
+    show_name: 0
+    suggestion: ''
+  link_attributes:
+    target: '<none>'
+    rel: '<none>'
+  iconset:
+    style: 'fontawesome:3x'
+    installed_iconsets:
+      fontawesome:
+        examples: ''
+visibility: {  }

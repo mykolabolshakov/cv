@@ -11,7 +11,7 @@ _core:
 id: mbcv_radix_powered
 theme: mbcv_radix
 region: footer
-weight: -6
+weight: -5
 provider: null
 plugin: system_powered_by_block
 settings:

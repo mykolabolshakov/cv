@@ -1,0 +1,10 @@
+favicon:
+  use_default: true
+features:
+  comment_user_picture: true
+  comment_user_verification: true
+  favicon: true
+  node_user_picture: true
+logo:
+  path: 'public://photo_2024-07-09_23-37-46.jpg'
+  use_default: false

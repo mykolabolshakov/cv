@@ -9,7 +9,7 @@ _core:
 id: mbcv_radix_primary_local_tasks
 theme: mbcv_radix
 region: content
-weight: -4
+weight: -5
 provider: null
 plugin: local_tasks_block
 settings:

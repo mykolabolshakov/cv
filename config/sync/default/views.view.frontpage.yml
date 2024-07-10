@@ -266,6 +266,7 @@ display:
     display_plugin: feed
     position: 2
     display_options:
+      enabled: false
       pager:
         type: some
         options:
@@ -302,7 +303,7 @@ display:
     position: 1
     display_options:
       display_extenders: {  }
-      path: node
+      path: home
     cache_metadata:
       max-age: -1
       contexts:

@@ -1,0 +1,36 @@
+{% embed '@mbcv_radix/navbar/navbar.twig' with {
+  container: 'fixed',
+  color: 'light',
+  utility_classes: ['bg-light'],
+} %}
+
+  {% block branding %}
+    {% if page.navbar_branding %}
+      {{ page.navbar_branding }}
+    {% endif %}
+  {% endblock %}
+
+  {% block left %}
+    {% if page.navbar_left %}
+      <div class="me-auto">
+        {{ page.navbar_left }}
+      </div>
+    {% endif %}
+  {% endblock %}
+
+  {% block center %}
+    {% if page.navbar_center %}
+      <div class="me-auto">
+        {{ page.navbar_center }}
+      </div>
+    {% endif %}
+  {% endblock %}
+
+  {% block right %}
+    {% if page.navbar_right %}
+      <div class="ms-auto">
+        {{ page.navbar_right }}
+      </div>
+    {% endif %}
+  {% endblock %}
+{% endembed %}

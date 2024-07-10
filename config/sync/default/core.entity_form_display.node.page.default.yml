@@ -4,9 +4,11 @@ status: true
 dependencies:
   config:
     - field.field.node.page.body
+    - field.field.node.page.field_socials
     - node.type.page
   module:
     - path
+    - social_media_links_field
     - text
 _core:
   default_config_hash: SfpLhPExzvR0MgFp0Wp7CrmgEnhcqQ-fXIWFhbf4ue0
@@ -28,6 +30,12 @@ content:
   created:
     type: datetime_timestamp
     weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_socials:
+    type: social_media_links_field_default
+    weight: 121
     region: content
     settings: {  }
     third_party_settings: {  }

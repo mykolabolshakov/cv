@@ -1,6 +1,6 @@
 uuid: d3fdf0e9-198c-46b0-9b8e-9986a522df1d
 langcode: uk
-status: true
+status: false
 dependencies:
   config:
     - system.menu.account

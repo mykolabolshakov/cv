@@ -9,7 +9,7 @@ _core:
 id: mbcv_radix_primary_admin_actions
 theme: mbcv_radix
 region: content
-weight: -5
+weight: -4
 provider: null
 plugin: local_actions_block
 settings:

@@ -1,0 +1,18 @@
+administer about_myself_entity types:
+  title: 'Administer about myself entity types'
+  description: 'Maintain the types of about myself entity entity.'
+  restrict access: true
+view about_myself_entity:
+  title: 'View about myself entity'
+edit about_myself_entity:
+  title: 'Edit about myself entity'
+delete about_myself_entity:
+  title: 'Delete about myself entity'
+create about_myself_entity:
+  title: 'Create about myself entity'
+view about_myself_entity revision:
+  title: 'View about myself entity revision'
+revert about_myself_entity revision:
+  title: 'Revert about myself entity revision'
+delete about_myself_entity revision:
+  title: 'Delete about myself entity revision'

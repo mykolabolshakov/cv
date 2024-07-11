@@ -1,0 +1,10 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - about_myself_entity
+id: about_myself_entity_save_action
+label: 'Save about myself entities'
+type: about_myself_entity
+plugin: entity:save_action:about_myself_entity
+configuration: {  }

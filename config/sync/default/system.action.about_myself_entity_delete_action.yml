@@ -1,0 +1,13 @@
+uuid: b568b866-c7cf-42d1-a4c2-8e8a37ae684d
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - about_myself_entity
+_core:
+  default_config_hash: dG7PWnmhukTNpz9AjO4elFVlig7ohHgAzXzqiSTEYpA
+id: about_myself_entity_delete_action
+label: 'Delete about myself entities'
+type: about_myself_entity
+plugin: 'entity:delete_action:about_myself_entity'
+configuration: {  }

@@ -1,6 +1,6 @@
 uuid: 880fb46a-82e4-4bfe-bb7a-31e47b7ee355
 langcode: uk
-status: true
+status: false
 dependencies:
   config:
     - core.entity_view_mode.node.rss
@@ -260,6 +260,26 @@ display:
         - 'user.node_grants:view'
         - user.permissions
       tags: {  }
+  about_me_home_page:
+    id: about_me_home_page
+    display_title: 'About Me Home Page'
+    display_plugin: page
+    position: 1
+    display_options:
+      defaults:
+        use_ajax: false
+      use_ajax: true
+      display_description: ''
+      display_extenders: {  }
+      path: about-me
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
   feed_1:
     id: feed_1
     display_title: Канал
@@ -287,28 +307,12 @@ display:
       path: rss.xml
       sitename_title: true
       displays:
-        page_1: page_1
         default: ''
+        about_me_home_page: about_me_home_page
     cache_metadata:
       max-age: -1
       contexts:
         - 'languages:language_interface'
-        - 'user.node_grants:view'
-        - user.permissions
-      tags: {  }
-  page_1:
-    id: page_1
-    display_title: Сторінка
-    display_plugin: page
-    position: 1
-    display_options:
-      display_extenders: {  }
-      path: home
-    cache_metadata:
-      max-age: -1
-      contexts:
-        - 'languages:language_interface'
-        - url.query_args
         - 'user.node_grants:view'
         - user.permissions
       tags: {  }

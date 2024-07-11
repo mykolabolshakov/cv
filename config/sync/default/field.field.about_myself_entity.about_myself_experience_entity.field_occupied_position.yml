@@ -1,0 +1,19 @@
+uuid: fcf2c089-ffa3-4ea3-ad98-8f73c4a05799
+langcode: uk
+status: true
+dependencies:
+  config:
+    - about_myself_entity.about_myself_entity_type.about_myself_experience_entity
+    - field.storage.about_myself_entity.field_occupied_position
+id: about_myself_entity.about_myself_experience_entity.field_occupied_position
+field_name: field_occupied_position
+entity_type: about_myself_entity
+bundle: about_myself_experience_entity
+label: 'Occupied position'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

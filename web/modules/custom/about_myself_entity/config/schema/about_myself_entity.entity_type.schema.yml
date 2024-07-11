@@ -1,0 +1,12 @@
+about_myself_entity.about_myself_entity_type.*:
+  type: config_entity
+  label: 'About Myself Entity type config'
+  mapping:
+    id:
+      type: string
+      label: 'ID'
+    label:
+      type: label
+      label: 'Label'
+    uuid:
+      type: string

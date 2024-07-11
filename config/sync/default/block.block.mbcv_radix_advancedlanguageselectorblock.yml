@@ -1,5 +1,5 @@
-uuid: 4847476b-abe0-403e-8cc5-b04c4dcaf7c6
-langcode: uk
+uuid: 50ffe6e0-3f6b-4c0c-b9ef-6c37695de89f
+langcode: en-gb
 status: true
 dependencies:
   module:
@@ -9,7 +9,7 @@ dependencies:
 id: mbcv_radix_advancedlanguageselectorblock
 theme: mbcv_radix
 region: navbar_left
-weight: -6
+weight: 0
 provider: null
 plugin: advanced_language_selector_block
 settings:
@@ -44,9 +44,9 @@ settings:
         icon_alignment: left
   bootstrap_dropdown:
     general:
-      id: language-switcher
-      css: language-switcher
-      text_transformation: upper
+      id: mbcv_radix_advancedlanguageselectorblock
+      css: mbcv-radix-advancedlanguageselectorblock
+      text_transformation: default
       load_external_bootstrap: 0
       external_bootstrap_library: advanced_language_selector/bootstrap
     display:
@@ -54,16 +54,16 @@ settings:
         css: btn-primary
         show:
           icons: icons
-          lang_code: lang_code
-          lang_name: 0
-        icon_height: '32'
-        icon_alignment: left
+          lang_name: lang_name
+          lang_code: 0
+        icon_height: '24'
+        icon_alignment: right
       items:
         show:
           icons: icons
-          lang_code: lang_code
-          lang_name: 0
-        icon_height: '32'
+          lang_name: lang_name
+          lang_code: 0
+        icon_height: '24'
         icon_alignment: left
   bootstrap_button_group:
     general:
@@ -82,10 +82,10 @@ settings:
         icon_alignment: left
   bootstrap_offcanvas:
     general:
-      id: language-switcher-bs-offcanvas
+      id: ''
       position: offcanvas-start
-      css: language-switcher-bs-offcanvas
-      text_transformation: upper
+      css: ''
+      text_transformation: default
       load_external_bootstrap: 0
       external_bootstrap_library: advanced_language_selector/bootstrap
     display:

@@ -3,9 +3,13 @@ langcode: uk
 status: true
 dependencies:
   module:
+    - block_classes
     - social_media_links
   theme:
     - mbcv_radix
+third_party_settings:
+  block_classes:
+    content_class: d-flex
 id: mbcv_radix_socialmedialinks
 theme: mbcv_radix
 region: navbar_center

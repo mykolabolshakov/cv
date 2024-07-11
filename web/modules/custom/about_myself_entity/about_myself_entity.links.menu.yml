@@ -1,0 +1,11 @@
+entity.about_myself_entity_type.collection:
+  title: 'About Myself Entity types'
+  description: 'Manage and CRUD actions on About Myself Entity type.'
+  parent: system.admin_structure
+  route_name: entity.about_myself_entity_type.collection
+
+entity.about_myself_entity.collection:
+  title: 'About Myself Entities'
+  description: 'List of about myself entities.'
+  route_name: entity.about_myself_entity.collection
+  parent: system.admin_content

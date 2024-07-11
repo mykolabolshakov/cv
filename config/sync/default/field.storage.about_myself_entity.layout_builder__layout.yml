@@ -1,0 +1,19 @@
+uuid: 4f0ab906-f521-4f03-8a07-6cac7b9886ca
+langcode: uk
+status: true
+dependencies:
+  module:
+    - about_myself_entity
+    - layout_builder
+id: about_myself_entity.layout_builder__layout
+field_name: layout_builder__layout
+entity_type: about_myself_entity
+type: layout_section
+settings: {  }
+module: layout_builder
+locked: true
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

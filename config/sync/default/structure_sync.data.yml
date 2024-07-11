@@ -1,0 +1,43 @@
+blocks: {  }
+menus:
+  -
+    menu_name: main
+    title: Контакти
+    parent: null
+    uri: 'internal:/contacts'
+    link_title: ''
+    description: null
+    enabled: true
+    expanded: false
+    weight: -48
+    langcode: en-gb
+    uuid: a599ea77-52e4-4e3d-b474-dbfeb1629c2d
+    options: {  }
+  -
+    menu_name: main
+    title: 'Про мене'
+    parent: null
+    uri: 'internal:/about-me'
+    link_title: ''
+    description: null
+    enabled: true
+    expanded: false
+    weight: -50
+    langcode: en-gb
+    uuid: 7d613d9d-6a02-42de-8db4-d281f35296de
+    options: {  }
+  -
+    menu_name: main
+    title: 'Мій Досвід'
+    parent: null
+    uri: 'internal:/about-me-exp'
+    link_title: ''
+    description: null
+    enabled: true
+    expanded: false
+    weight: 0
+    langcode: uk
+    uuid: a20f887c-588d-419e-844c-05030332b60b
+    options: {  }
+taxonomies:
+  tags: {  }

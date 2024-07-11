@@ -1,0 +1,26 @@
+entity.about_myself_entity.view:
+  title: 'View'
+  route_name: entity.about_myself_entity.canonical
+  base_route: entity.about_myself_entity.canonical
+entity.about_myself_entity.edit_form:
+  title: 'Edit'
+  route_name: entity.about_myself_entity.edit_form
+  base_route: entity.about_myself_entity.canonical
+entity.about_myself_entity.delete_form:
+  title: 'Delete'
+  route_name: entity.about_myself_entity.delete_form
+  base_route: entity.about_myself_entity.canonical
+  weight: 10
+entity.about_myself_entity.collection:
+  title: 'About Myself Entities'
+  route_name: entity.about_myself_entity.collection
+  base_route: system.admin_content
+  weight: 10
+entity.about_myself_entity_type.edit_form:
+  title: 'Edit'
+  route_name: entity.about_myself_entity_type.edit_form
+  base_route: entity.about_myself_entity_type.edit_form
+entity.about_myself_entity_type.collection:
+  title: 'List'
+  route_name: entity.about_myself_entity_type.collection
+  base_route: entity.about_myself_entity_type.collection

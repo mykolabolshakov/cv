@@ -1,0 +1,19 @@
+uuid: 3772fc05-853b-42b9-998e-3ee63ac77108
+langcode: uk
+status: true
+dependencies:
+  module:
+    - about_myself_entity
+    - link
+id: about_myself_entity.field_projects_involving
+field_name: field_projects_involving
+entity_type: about_myself_entity
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

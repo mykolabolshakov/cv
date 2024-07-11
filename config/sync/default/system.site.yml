@@ -2,14 +2,14 @@ _core:
   default_config_hash: ijfbzDTN4CbE7Sr-6ubWzy_t1vH4OtU1doNCLssVz-4
 langcode: uk
 uuid: 09428e9c-8425-44b8-be2e-e279db0e73a0
-name: 'Mykola Bolshakov'
+name: 'Микола Большаков'
 mail: mbcv@gmail.com
-slogan: 'Drupal Fullstack Developer'
+slogan: 'Drupal Fullstack Розробник'
 page:
   403: ''
   404: ''
-  front: /home
+  front: /about-me-exp
 admin_compact_mode: false
 weight_select_max: 100
-default_langcode: en-gb
+default_langcode: uk
 mail_notification: null

@@ -1,0 +1,10 @@
+entity.about_myself_entity.edit_form:
+  route_name: entity.about_myself_entity.edit_form
+  group: about_myself_entity
+  title: 'Edit'
+
+entity.about_myself_entity.delete_form:
+  route_name: entity.about_myself_entity.delete_form
+  group: about_myself_entity
+  title: 'Delete'
+  weight: 10

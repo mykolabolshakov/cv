@@ -1,0 +1,109 @@
+uuid: 757ad4c6-f41c-408d-b89d-b78ea89f5e9e
+langcode: uk
+status: true
+dependencies:
+  config:
+    - about_myself_entity.about_myself_entity_type.about_myself_experience_entity
+    - field.field.about_myself_entity.about_myself_experience_entity.field_company_name
+    - field.field.about_myself_entity.about_myself_experience_entity.field_company_website
+    - field.field.about_myself_entity.about_myself_experience_entity.field_employment_time
+    - field.field.about_myself_entity.about_myself_experience_entity.field_employment_type
+    - field.field.about_myself_entity.about_myself_experience_entity.field_expirience_description
+    - field.field.about_myself_entity.about_myself_experience_entity.field_occupied_position
+    - field.field.about_myself_entity.about_myself_experience_entity.field_projects_involving
+    - field.field.about_myself_entity.about_myself_experience_entity.layout_builder__layout
+  module:
+    - datetime_range
+    - link
+    - text
+id: about_myself_entity.about_myself_experience_entity.default
+targetEntityType: about_myself_entity
+bundle: about_myself_experience_entity
+mode: default
+content:
+  field_company_name:
+    type: string_textfield
+    weight: 2
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_company_website:
+    type: link_default
+    weight: 5
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  field_employment_time:
+    type: daterange_default
+    weight: 4
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_employment_type:
+    type: string_textfield
+    weight: 3
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_expirience_description:
+    type: text_textarea
+    weight: 6
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_occupied_position:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_projects_involving:
+    type: link_default
+    weight: 7
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  label:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 8
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    weight: 9
+    region: content
+    settings:
+      display_label: false
+    third_party_settings: {  }
+  translation:
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  created: true
+  description: true
+  layout_builder__layout: true
+  uid: true

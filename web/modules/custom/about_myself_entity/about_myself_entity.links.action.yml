@@ -1,0 +1,11 @@
+about_myself_entity.type_add:
+  title: 'Add about myself entity type'
+  route_name: entity.about_myself_entity_type.add_form
+  appears_on:
+    - entity.about_myself_entity_type.collection
+
+about_myself_entity.add_page:
+  title: 'Add about myself entity'
+  route_name: entity.about_myself_entity.add_page
+  appears_on:
+    - entity.about_myself_entity.collection

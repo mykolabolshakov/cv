@@ -1,0 +1,19 @@
+uuid: b2880545-276a-48d6-8915-ab63a644a1e2
+langcode: uk
+status: true
+dependencies:
+  config:
+    - about_myself_entity.about_myself_entity_type.about_myself_experience_entity
+    - field.storage.about_myself_entity.field_employment_type
+id: about_myself_entity.about_myself_experience_entity.field_employment_type
+field_name: field_employment_type
+entity_type: about_myself_entity
+bundle: about_myself_experience_entity
+label: 'Employment type'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

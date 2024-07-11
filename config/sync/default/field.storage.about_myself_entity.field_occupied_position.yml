@@ -1,0 +1,21 @@
+uuid: 44e27f13-ed23-4b32-8af4-614a0421684c
+langcode: uk
+status: true
+dependencies:
+  module:
+    - about_myself_entity
+id: about_myself_entity.field_occupied_position
+field_name: field_occupied_position
+entity_type: about_myself_entity
+type: string
+settings:
+  max_length: 255
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

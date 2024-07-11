@@ -1,0 +1,20 @@
+uuid: fc5a93f0-6662-401e-ab8f-8a4a8f339a08
+langcode: uk
+status: true
+dependencies:
+  module:
+    - about_myself_entity
+    - datetime_range
+id: about_myself_entity.field_employment_time
+field_name: field_employment_time
+entity_type: about_myself_entity
+type: daterange
+settings:
+  datetime_type: date
+module: datetime_range
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

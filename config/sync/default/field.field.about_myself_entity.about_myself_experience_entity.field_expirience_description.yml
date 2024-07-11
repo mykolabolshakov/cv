@@ -1,0 +1,24 @@
+uuid: 3a41cd1e-e59d-483e-8f26-b118b2062fff
+langcode: uk
+status: true
+dependencies:
+  config:
+    - about_myself_entity.about_myself_entity_type.about_myself_experience_entity
+    - field.storage.about_myself_entity.field_expirience_description
+    - filter.format.full_html
+  module:
+    - text
+id: about_myself_entity.about_myself_experience_entity.field_expirience_description
+field_name: field_expirience_description
+entity_type: about_myself_entity
+bundle: about_myself_experience_entity
+label: 'Expirience description'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - full_html
+field_type: text_long

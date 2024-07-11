@@ -1,0 +1,13 @@
+uuid: 547f081d-2b10-4c66-81bb-ef0a17cce849
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - about_myself_entity
+_core:
+  default_config_hash: Tds7HzVqW9fZNIPYhieiupXSG-xLOR5b0qI64PvDJRA
+id: about_myself_entity_save_action
+label: 'Save about myself entities'
+type: about_myself_entity
+plugin: 'entity:save_action:about_myself_entity'
+configuration: {  }

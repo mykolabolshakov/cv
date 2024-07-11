@@ -1,0 +1,8 @@
+uuid: 14ad5e62-8b9a-4bed-9085-92119e1f4e13
+langcode: uk
+status: true
+dependencies: {  }
+id: exp_time_mounth
+label: 'Exp Time Mounth.Year'
+locked: false
+pattern: m.Y

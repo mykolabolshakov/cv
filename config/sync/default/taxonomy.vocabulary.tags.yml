@@ -4,7 +4,7 @@ status: true
 dependencies: {  }
 _core:
   default_config_hash: iTEzwrEQ_4JIb-OYGiqzyF2TmMgWyWayresXcWgwGWM
-name: Теґи
+name: Tags
 vid: tags
 description: 'Теґи використовуються для групування статей зі схожими темами в категорії.'
 weight: 0

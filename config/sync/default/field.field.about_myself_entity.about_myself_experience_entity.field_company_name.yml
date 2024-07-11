@@ -1,0 +1,19 @@
+uuid: cae875a9-7913-4efa-a7ae-a7f711d192af
+langcode: uk
+status: true
+dependencies:
+  config:
+    - about_myself_entity.about_myself_entity_type.about_myself_experience_entity
+    - field.storage.about_myself_entity.field_company_name
+id: about_myself_entity.about_myself_experience_entity.field_company_name
+field_name: field_company_name
+entity_type: about_myself_entity
+bundle: about_myself_experience_entity
+label: 'Company name'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

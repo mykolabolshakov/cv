@@ -1,0 +1,285 @@
+uuid: 454e2f8f-df05-4705-9472-18276680ab57
+langcode: uk
+status: true
+dependencies:
+  config:
+    - about_myself_entity.about_myself_entity_type.about_myself_experience_entity
+    - field.field.about_myself_entity.about_myself_experience_entity.field_company_name
+    - field.field.about_myself_entity.about_myself_experience_entity.field_company_website
+    - field.field.about_myself_entity.about_myself_experience_entity.field_employment_time
+    - field.field.about_myself_entity.about_myself_experience_entity.field_employment_type
+    - field.field.about_myself_entity.about_myself_experience_entity.field_expirience_description
+    - field.field.about_myself_entity.about_myself_experience_entity.field_occupied_position
+    - field.field.about_myself_entity.about_myself_experience_entity.field_projects_involving
+    - field.field.about_myself_entity.about_myself_experience_entity.layout_builder__layout
+  module:
+    - datetime_range
+    - layout_builder
+    - layout_discovery
+    - link
+    - text
+    - user
+third_party_settings:
+  layout_builder:
+    enabled: true
+    allow_custom: true
+    sections:
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: ''
+        components:
+          d616abf7-627a-44ef-9485-f7e0a3bd3a0c:
+            uuid: d616abf7-627a-44ef-9485-f7e0a3bd3a0c
+            region: content
+            configuration:
+              id: 'field_block:about_myself_entity:about_myself_experience_entity:field_company_name'
+              label: 'Company name'
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: string
+                label: hidden
+                settings:
+                  link_to_entity: false
+                third_party_settings: {  }
+            weight: 5
+            additional: {  }
+          a631eccc-9916-43e6-9ad5-6dcd9e3ef933:
+            uuid: a631eccc-9916-43e6-9ad5-6dcd9e3ef933
+            region: content
+            configuration:
+              id: 'field_block:about_myself_entity:about_myself_experience_entity:field_employment_type'
+              label: 'Employment type'
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: string
+                label: hidden
+                settings:
+                  link_to_entity: false
+                third_party_settings: {  }
+            weight: 6
+            additional: {  }
+          d6e92d9f-9935-4450-9e10-a449cd9f0286:
+            uuid: d6e92d9f-9935-4450-9e10-a449cd9f0286
+            region: content
+            configuration:
+              id: 'field_block:about_myself_entity:about_myself_experience_entity:field_employment_time'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: daterange_default
+                label: above
+                settings:
+                  timezone_override: ''
+                  format_type: medium
+                  from_to: both
+                  separator: '-'
+                third_party_settings: {  }
+            weight: 7
+            additional: {  }
+          647596b5-b01f-4b99-ba09-63ea92026484:
+            uuid: 647596b5-b01f-4b99-ba09-63ea92026484
+            region: content
+            configuration:
+              id: 'field_block:about_myself_entity:about_myself_experience_entity:field_company_website'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: link
+                label: above
+                settings:
+                  trim_length: 80
+                  url_only: false
+                  url_plain: false
+                  rel: ''
+                  target: ''
+                third_party_settings: {  }
+            weight: 8
+            additional: {  }
+          5bc86022-50bd-46dd-ab76-63ae24e7817a:
+            uuid: 5bc86022-50bd-46dd-ab76-63ae24e7817a
+            region: content
+            configuration:
+              id: 'field_block:about_myself_entity:about_myself_experience_entity:field_occupied_position'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: string
+                label: above
+                settings:
+                  link_to_entity: false
+                third_party_settings: {  }
+            weight: 9
+            additional: {  }
+          259d3fef-589a-4c2c-9dea-960abb31e102:
+            uuid: 259d3fef-589a-4c2c-9dea-960abb31e102
+            region: content
+            configuration:
+              id: 'field_block:about_myself_entity:about_myself_experience_entity:field_projects_involving'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: link
+                label: above
+                settings:
+                  trim_length: 80
+                  url_only: false
+                  url_plain: false
+                  rel: ''
+                  target: ''
+                third_party_settings: {  }
+            weight: 10
+            additional: {  }
+          d238f877-e20b-48df-9e98-c0f0dd1f995c:
+            uuid: d238f877-e20b-48df-9e98-c0f0dd1f995c
+            region: content
+            configuration:
+              id: 'field_block:about_myself_entity:about_myself_experience_entity:field_expirience_description'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: text_default
+                label: above
+                settings: {  }
+                third_party_settings: {  }
+            weight: 11
+            additional: {  }
+        third_party_settings: {  }
+id: about_myself_entity.about_myself_experience_entity.default
+targetEntityType: about_myself_entity
+bundle: about_myself_experience_entity
+mode: default
+content:
+  created:
+    type: timestamp
+    label: above
+    settings:
+      date_format: medium
+      custom_date_format: ''
+      timezone: ''
+      tooltip:
+        date_format: long
+        custom_date_format: ''
+      time_diff:
+        enabled: false
+        future_format: '@interval hence'
+        past_format: '@interval ago'
+        granularity: 2
+        refresh: 60
+    third_party_settings: {  }
+    weight: 20
+    region: content
+  description:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 10
+    region: content
+  field_company_name:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 21
+    region: content
+  field_company_website:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 24
+    region: content
+  field_employment_time:
+    type: daterange_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: medium
+      from_to: both
+      separator: '-'
+    third_party_settings: {  }
+    weight: 23
+    region: content
+  field_employment_type:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 22
+    region: content
+  field_expirience_description:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 27
+    region: content
+  field_occupied_position:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 25
+    region: content
+  field_projects_involving:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 26
+    region: content
+  label:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: -5
+    region: content
+  status:
+    type: boolean
+    label: above
+    settings:
+      format: enabled-disabled
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  uid:
+    type: author
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 15
+    region: content
+hidden:
+  langcode: true
+  layout_builder__layout: true
